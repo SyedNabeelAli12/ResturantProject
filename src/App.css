@@ -1,7 +1,15 @@
 .App {
   text-align: center;
 }
-
+span{
+      /* animation-fill-mode: backwards; */
+      display: inline-block;
+      /* background-color: aquamarine; */
+      background: antiquewhite;
+      padding: 10px;
+      margin: 5px;
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +20,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.list-wrapper{
+      /* border: gainsboro; */
+      border: 1px solid #ccc;
+      margin: auto;
+      width: 500px;
+ }
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +48,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.search-row{
+  background-color: aliceblue;
+    max-width: 100px;
+    padding: 3px;
+    margin: auto;
+    margin-top: 8px;
+    
 }
